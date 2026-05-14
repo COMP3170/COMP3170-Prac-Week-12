@@ -1,4 +1,4 @@
-# COMP3170 Week 11 Prac: Intro to Raytracing
+# COMP3170 Week 12 Prac: Intro to Raytracing
 
 We are going to build a very simple ray-tracing example in GLSL, to give you a taste of how raytracing works and why it is a powerful way to do effects like shadows and reflections.
 
@@ -105,11 +105,6 @@ As discussed in lectures, we can implement shadows and reflections very easily i
 Implement shadows on the plane by casting a ray from the hit point in the source direction of the light. If the ray hits the sphere, the point is in shadow, otherwise it is lit. 
 
 Implement a mirrored sphere by casting a ray from the hit point in the direction of the reflected view vector. The ray either hits the sky or the plane. Colour the sphere using either `skyColour` or `planeColour(hit, v)`.
-
-## To receive a mark today, show your demonstrator:
-
-* Your re-written shader code, and that you understand it.
-* Your sphere and shadows.
 
 ## Challenge: Reflection trouble
 Challenge: What problem would arise if you made both the sphere and the plane reflective? How could you address this?
